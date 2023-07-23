@@ -1,0 +1,4 @@
+pages\CreateNewAccount.class
+pages\LoginPage.class
+utilities\Screenshot.class
+pages\HomePage.class

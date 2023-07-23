@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-21T18:31:54Z" name="Default suite" finished-at="2023-07-21T18:32:37Z" duration-ms="43564">
+    <groups>
+    </groups>
+    <test started-at="2023-07-21T18:31:54Z" name="Default test" finished-at="2023-07-21T18:32:37Z" duration-ms="43564">
+      <class name="Selenium_MavenProject.Assignment.LoginpageTesting">
+        <test-method is-config="true" signature="initializeWebDriver()[pri:0, instance:Selenium_MavenProject.Assignment.LoginpageTesting@17f9d882]" started-at="2023-07-21T18:31:52Z" name="initializeWebDriver" finished-at="2023-07-21T18:31:54Z" duration-ms="1537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebDriver -->
+        <test-method is-config="true" signature="setExtent()[pri:0, instance:Selenium_MavenProject.Assignment.LoginpageTesting@17f9d882]" started-at="2023-07-21T18:31:54Z" name="setExtent" finished-at="2023-07-21T18:31:54Z" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method is-config="true" signature="openurl()[pri:0, instance:Selenium_MavenProject.Assignment.LoginpageTesting@17f9d882]" started-at="2023-07-21T18:31:54Z" name="openurl" finished-at="2023-07-21T18:32:01Z" duration-ms="7804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method signature="LoginValidmailid()[pri:6, instance:Selenium_MavenProject.Assignment.LoginpageTesting@17f9d882]" started-at="2023-07-21T18:32:01Z" name="LoginValidmailid" finished-at="2023-07-21T18:32:22Z" duration-ms="20550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginValidmailid -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:Selenium_MavenProject.Assignment.LoginpageTesting@17f9d882]" started-at="2023-07-21T18:32:22Z" name="attachScreenshot" finished-at="2023-07-21T18:32:22Z" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginValidmailid status=SUCCESS method=LoginpageTesting.LoginValidmailid()[pri:6, instance:Selenium_MavenProject.Assignment.LoginpageTesting@17f9d882] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:Selenium_MavenProject.Assignment.LoginpageTesting@17f9d882]" started-at="2023-07-21T18:32:22Z" name="endTest" finished-at="2023-07-21T18:32:22Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="openurl()[pri:0, instance:Selenium_MavenProject.Assignment.LoginpageTesting@17f9d882]" started-at="2023-07-21T18:32:22Z" name="openurl" finished-at="2023-07-21T18:32:24Z" duration-ms="1622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method signature="Loginvalidmailid()[pri:7, instance:Selenium_MavenProject.Assignment.LoginpageTesting@17f9d882]" started-at="2023-07-21T18:32:24Z" name="Loginvalidmailid" finished-at="2023-07-21T18:32:26Z" duration-ms="2053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loginvalidmailid -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:Selenium_MavenProject.Assignment.LoginpageTesting@17f9d882]" started-at="2023-07-21T18:32:26Z" name="attachScreenshot" finished-at="2023-07-21T18:32:26Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Loginvalidmailid status=SUCCESS method=LoginpageTesting.Loginvalidmailid()[pri:7, instance:Selenium_MavenProject.Assignment.LoginpageTesting@17f9d882] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="openurl()[pri:0, instance:Selenium_MavenProject.Assignment.LoginpageTesting@17f9d882]" started-at="2023-07-21T18:32:26Z" name="openurl" finished-at="2023-07-21T18:32:27Z" duration-ms="1302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:Selenium_MavenProject.Assignment.LoginpageTesting@17f9d882]" started-at="2023-07-21T18:32:26Z" name="endTest" finished-at="2023-07-21T18:32:26Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method signature="LogininValidPassword()[pri:8, instance:Selenium_MavenProject.Assignment.LoginpageTesting@17f9d882]" started-at="2023-07-21T18:32:27Z" name="LogininValidPassword" finished-at="2023-07-21T18:32:30Z" duration-ms="3517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogininValidPassword -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:Selenium_MavenProject.Assignment.LoginpageTesting@17f9d882]" started-at="2023-07-21T18:32:30Z" name="endTest" finished-at="2023-07-21T18:32:30Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="openurl()[pri:0, instance:Selenium_MavenProject.Assignment.LoginpageTesting@17f9d882]" started-at="2023-07-21T18:32:30Z" name="openurl" finished-at="2023-07-21T18:32:32Z" duration-ms="1181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:Selenium_MavenProject.Assignment.LoginpageTesting@17f9d882]" started-at="2023-07-21T18:32:30Z" name="attachScreenshot" finished-at="2023-07-21T18:32:30Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LogininValidPassword status=SUCCESS method=LoginpageTesting.LogininValidPassword()[pri:8, instance:Selenium_MavenProject.Assignment.LoginpageTesting@17f9d882] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method signature="Logblankuser()[pri:9, instance:Selenium_MavenProject.Assignment.LoginpageTesting@17f9d882]" started-at="2023-07-21T18:32:32Z" name="Logblankuser" finished-at="2023-07-21T18:32:33Z" duration-ms="1239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logblankuser -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:Selenium_MavenProject.Assignment.LoginpageTesting@17f9d882]" started-at="2023-07-21T18:32:33Z" name="endTest" finished-at="2023-07-21T18:32:33Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="openurl()[pri:0, instance:Selenium_MavenProject.Assignment.LoginpageTesting@17f9d882]" started-at="2023-07-21T18:32:33Z" name="openurl" finished-at="2023-07-21T18:32:34Z" duration-ms="1309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:Selenium_MavenProject.Assignment.LoginpageTesting@17f9d882]" started-at="2023-07-21T18:32:33Z" name="attachScreenshot" finished-at="2023-07-21T18:32:33Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Logblankuser status=SUCCESS method=LoginpageTesting.Logblankuser()[pri:9, instance:Selenium_MavenProject.Assignment.LoginpageTesting@17f9d882] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method signature="Loginblankpass()[pri:10, instance:Selenium_MavenProject.Assignment.LoginpageTesting@17f9d882]" started-at="2023-07-21T18:32:34Z" name="Loginblankpass" finished-at="2023-07-21T18:32:37Z" duration-ms="2947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loginblankpass -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:Selenium_MavenProject.Assignment.LoginpageTesting@17f9d882]" started-at="2023-07-21T18:32:37Z" name="endTest" finished-at="2023-07-21T18:32:37Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:Selenium_MavenProject.Assignment.LoginpageTesting@17f9d882]" started-at="2023-07-21T18:32:37Z" name="attachScreenshot" finished-at="2023-07-21T18:32:37Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Loginblankpass status=SUCCESS method=LoginpageTesting.Loginblankpass()[pri:10, instance:Selenium_MavenProject.Assignment.LoginpageTesting@17f9d882] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Selenium_MavenProject.Assignment.LoginpageTesting@17f9d882]" started-at="2023-07-21T18:32:37Z" name="closeBrowser" finished-at="2023-07-21T18:32:38Z" duration-ms="329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:Selenium_MavenProject.Assignment.LoginpageTesting@17f9d882]" started-at="2023-07-21T18:32:38Z" name="endReport" finished-at="2023-07-21T18:32:38Z" duration-ms="484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- Selenium_MavenProject.Assignment.LoginpageTesting -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
