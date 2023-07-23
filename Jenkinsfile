@@ -1,22 +1,19 @@
 pipeline {
     agent any
-    tools { 
+    tools {
         maven 'MAVEN_HOME' 
-        jdk 'jdk18' 
     }
-    stages {
-        stage ('Initialize') {
-            steps {
-                sh '''
-                    echo "PATH = ${PATH}"
-                    echo "MAVEN_HOME = ${MAVEN_HOME}"
-                ''' 
-            }
-        }
 
-        stage ('Build') {
+ 
+    
+    stages {
+        stage('Example') {
             steps {
-                echo 'This is a minimal pipeline.'
+
+                withMaven(maven: 'MAVEN_HOME') {
+
+                    bat 'mvn clean test'
+                }
             }
         }
     }
