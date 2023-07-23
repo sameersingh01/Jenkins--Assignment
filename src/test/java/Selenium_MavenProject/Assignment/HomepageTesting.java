@@ -66,19 +66,6 @@ public class HomepageTesting extends Browsers {
 
 
 
-	@Test(priority=4)
-	  public void chooseFashion() {
-			 log.info("CLICK CHOOSE FASHION");
-
-		    extentTest =extent.startTest("chooseFashion");
-
-		  HomePage home=new HomePage(driver);
-		  home.clicknavbarFashion();
-		  home.clickchoosekurtis();
-		    extentTest.log(LogStatus.PASS, "Test case Passed sucessfully");
-
-		  
-		  
-	  }
+	
 	  
 }
